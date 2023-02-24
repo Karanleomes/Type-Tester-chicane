@@ -9,31 +9,24 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Prompt:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Taviraj:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Trirong:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 @font-face {
-  font-family: "Faune";
+  font-family: "Chicane";
   font-weight: 400;
-  src: url(/assets/faune-regular.woff2), url(/assets/faune-regular.wof/);
+  src: url(/assets/TypeTester-3.8.ttf);
 }
+
 
 @font-face {
-  font-family: "Faune";
+  font-family: "Inter";
   font-weight: 400;
-  font-style: italic;
-  src: url(/assets/faune-italic.woff2), url(/assets/faune-italic.woff);
+  src: url(/assets/Inter-Regular.ttf);
 }
-
-@font-face {
-  font-family: "Faune";
-  font-weight: 700;
-  src: url(/assets/faune-bold.woff2), url(/assets/faune-bold.woff);
-}
-
 
 body {
-	font-family: "Faune", Arial;
+	font-family: "Inter", Arial;
 	font-size: 16px;
 	line-height: 1.5;
 	
-	background-color: #2a2a2a;
+	background-color: #000;
 	color: #ffffff;
 	margin: 0 0 0 280px;
 	
@@ -45,7 +38,7 @@ section.options {
   left: 0;
   width: 280px;
   height: 100vh;
-  background-color: #2a2a2a;
+  background-color: #000;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   
   padding: 40px;
@@ -74,7 +67,7 @@ label {
 
 label span {
   float: right;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 input[type="text"] {
@@ -95,6 +88,7 @@ select {
 }
 
 textarea.output {
+  font-family: "Chicane";
   font-size: 64px;
   width: 100%;
   background: none;
